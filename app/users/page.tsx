@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { User } from './components/User';
+import { User } from '../components/User';
 
 export default function IndexPage() {
-	return <>Home</>;
+	return <User />;
 }
 
 export const metadata: Metadata = {
